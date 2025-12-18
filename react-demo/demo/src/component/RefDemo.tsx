@@ -15,20 +15,20 @@ export const RefDemo = () => {
   });
   return (
     <>
-      <h1
+      <div
         ref={(node) => {
           refs.current.c1 = node;
         }}
       >
         RefDemo1
-      </h1>
-      <h1
+      </div>
+      <div
         ref={(node) => {
           refs.current.c2 = node;
         }}
       >
         RefDemo2
-      </h1>
+      </div>
     </>
   );
 };

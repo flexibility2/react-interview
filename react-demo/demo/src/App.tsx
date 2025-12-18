@@ -1,4 +1,5 @@
 import "./App.css";
+import { ForwardRefDemo } from "./component/ForwardRefDemo";
 import { RefDemo } from "./component/RefDemo";
 
 function App() {
@@ -6,6 +7,7 @@ function App() {
     <>
       <h1>APP</h1>
       <RefDemo></RefDemo>
+      <ForwardRefDemo></ForwardRefDemo>
     </>
   );
 }
